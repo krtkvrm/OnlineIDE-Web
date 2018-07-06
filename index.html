@@ -1,10 +1,18 @@
 <html>
     <head>
         <title>Editor</title>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
     </head>
     <body>
+        <button>Run!</button>
+        <select id="lang">
+            <option value="c">C</option>
+            <option value="javascript">Python3</option>
+        </select>
         <div id="container" style="width:100%;height:600px;" />
     </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="includes/monaco-editor/min/vs/loader.js"></script>
     <script src="includes/js/script.js"></script>
 </html>
