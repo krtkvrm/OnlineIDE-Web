@@ -10,8 +10,7 @@ const loadEditor = (lang) => {
 				'\treturn 0;',
 				'}'
 			].join('\n'),
-			language: lang,
-			theme: 'hc-black'
+			language: lang
 		})
 	})
 }
